@@ -1,0 +1,121 @@
+{
+  "header": {
+    "title": "Tobacco",
+    "subtitle": "Track"
+  },
+  "language": {
+    "english": "English",
+    "spanish": "Español"
+  },
+  "tabs": {
+    "dashboard": "Dashboard",
+    "goals": "Goals",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "smokesToday": "Smokes Today",
+    "weeklyAverage": "Weekly Average",
+    "totalTracked": "Total Tracked",
+    "past7Days": "Past 7 Days",
+    "currentStreak": "Current Streak",
+    "days": "days"
+  },
+  "history": {
+    "title": "History",
+    "empty": {
+      "title": "No activity yet",
+      "subtitle": "Press the button below to start tracking."
+    },
+    "today": "Today",
+    "yesterday": "Yesterday"
+  },
+  "reports": {
+    "weekly": "Weekly Report",
+    "monthly": "Monthly Report",
+    "yearly": "Yearly Report",
+    "inRange": "In Range",
+    "dailyAverage": "Daily Average",
+    "monthlyAverage": "Monthly Average",
+    "vsPrevious": "Vs. Previous Period",
+    "vsLastMonth": "Vs. Last Month",
+    "vsLastYear": "Vs. Last Year",
+    "trend": "Trend",
+    "comparison": {
+      "upFrom": "Up from {{value}}",
+      "stillAt": "Still at {{value}}",
+      "noChange": "No change",
+      "increase": "{{percent}}% increase",
+      "decrease": "{{percent}}% decrease"
+    }
+  },
+  "goals": {
+    "tabs": {
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly"
+    },
+    "setGoalTitle": "Set Your {{type}} Goal",
+    "setGoalSubtitle": "Define your consumption limit for this period to stay on track.",
+    "setGoalButton": "Set Goal",
+    "inputPlaceholder": "e.g., 5",
+    "progressTitle": "Your Progress",
+    "noGoal": {
+      "title": "No goal set for this period.",
+      "subtitle": "Use the form above to set one!"
+    },
+    "motivation": {
+      "start": "Every great journey begins with a single step. Set a goal to get started!",
+      "cleanSlate": "Goal set and a clean slate for the period. You've got this!",
+      "excellent": "Excellent progress. Keep up the great work and stay mindful!",
+      "gettingClose": "You're getting close to your goal. Stay focused and finish strong!",
+      "limitReached": "You've reached your limit. This is a crucial moment—hold steady!",
+      "overLimit": "You've gone over, but don't be discouraged. Tomorrow is a new day."
+    }
+  },
+  "actions": {
+    "log": "Log a Smoke",
+    "lastLog": "Last: {{time}}",
+    "clearAll": "Clear All"
+  },
+  "settings": {
+    "title": "Data Management",
+    "description": "Backup your data or import it to another device. Importing will overwrite all current data in this app.",
+    "export": {
+      "label": "Export Data",
+      "description": "Download a JSON file containing all your logs and goals.",
+      "button": "Export Data",
+      "error": "Failed to export data."
+    },
+    "import": {
+      "label": "Import Data",
+      "description": "Import data from a previously exported JSON file. This is a destructive action and cannot be undone.",
+      "button": "Import Data",
+      "confirm": "Are you sure you want to import this file? All existing data will be permanently overwritten.",
+      "success": "Data imported successfully! The application will now reload.",
+      "error": {
+        "invalidFile": "Import failed. The selected file is invalid or corrupted. Please ensure you are using a valid backup file."
+      }
+    }
+  },
+  "share": {
+    "button": "Share",
+    "title": "My Tobacco Track Progress",
+    "text": {
+      "daily": "Check out my daily progress on Tobacco Track!",
+      "weekly": "Check out my weekly progress on Tobacco Track!"
+    },
+    "card": {
+      "dailyTitle": "Daily Summary",
+      "weeklyTitle": "Weekly Progress",
+      "smokesToday": "Smokes Today",
+      "currentStreak": "Current Streak"
+    },
+    "error": "Could not generate shareable image."
+  },
+  "general": {
+    "loading": "Loading..."
+  }
+}

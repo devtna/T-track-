@@ -1,0 +1,121 @@
+{
+  "header": {
+    "title": "Tabaco",
+    "subtitle": "Track"
+  },
+  "language": {
+    "english": "English",
+    "spanish": "Español"
+  },
+  "tabs": {
+    "dashboard": "Panel",
+    "goals": "Metas",
+    "weekly": "Semanal",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "settings": "Ajustes"
+  },
+  "dashboard": {
+    "smokesToday": "Fumados Hoy",
+    "weeklyAverage": "Promedio Semanal",
+    "totalTracked": "Total Registrado",
+    "past7Days": "Últimos 7 Días",
+    "currentStreak": "Racha Actual",
+    "days": "días"
+  },
+  "history": {
+    "title": "Historial",
+    "empty": {
+      "title": "Aún no hay actividad",
+      "subtitle": "Presiona el botón de abajo para empezar a registrar."
+    },
+    "today": "Hoy",
+    "yesterday": "Ayer"
+  },
+  "reports": {
+    "weekly": "Reporte Semanal",
+    "monthly": "Reporte Mensual",
+    "yearly": "Reporte Anual",
+    "inRange": "En el Rango",
+    "dailyAverage": "Promedio Diario",
+    "monthlyAverage": "Promedio Mensual",
+    "vsPrevious": "Vs. Periodo Anterior",
+    "vsLastMonth": "Vs. Mes Anterior",
+    "vsLastYear": "Vs. Año Anterior",
+    "trend": "Tendencia",
+    "comparison": {
+      "upFrom": "Más que {{value}}",
+      "stillAt": "Sigue en {{value}}",
+      "noChange": "Sin cambios",
+      "increase": "{{percent}}% de aumento",
+      "decrease": "{{percent}}% de disminución"
+    }
+  },
+  "goals": {
+    "tabs": {
+      "daily": "Diaria",
+      "weekly": "Semanal",
+      "monthly": "Mensual"
+    },
+    "setGoalTitle": "Establece tu Meta {{type}}",
+    "setGoalSubtitle": "Define tu límite de consumo para este período para mantenerte en el camino.",
+    "setGoalButton": "Fijar Meta",
+    "inputPlaceholder": "ej., 5",
+    "progressTitle": "Tu Progreso",
+    "noGoal": {
+      "title": "No hay meta establecida para este período.",
+      "subtitle": "¡Usa el formulario de arriba para establecer una!"
+    },
+    "motivation": {
+      "start": "Todo gran viaje comienza con un solo paso. ¡Establece una meta para empezar!",
+      "cleanSlate": "Meta establecida y borrón y cuenta nueva para el período. ¡Tú puedes!",
+      "excellent": "Excelente progreso. ¡Sigue con el gran trabajo y mantente atento!",
+      "gettingClose": "Te estás acercando a tu meta. ¡Mantente enfocado y termina fuerte!",
+      "limitReached": "Has alcanzado tu límite. Este es un momento crucial, ¡mantente firme!",
+      "overLimit": "Te has pasado, pero no te desanimes. Mañana será otro día."
+    }
+  },
+  "actions": {
+    "log": "Registrar Fumado",
+    "lastLog": "Último: {{time}}",
+    "clearAll": "Limpiar Todo"
+  },
+  "settings": {
+    "title": "Gestión de Datos",
+    "description": "Haz una copia de seguridad de tus datos o impórtalos a otro dispositivo. La importación sobrescribirá todos los datos actuales en esta aplicación.",
+    "export": {
+      "label": "Exportar Datos",
+      "description": "Descarga un archivo JSON que contiene todos tus registros y metas.",
+      "button": "Exportar Datos",
+      "error": "Error al exportar los datos."
+    },
+    "import": {
+      "label": "Importar Datos",
+      "description": "Importa datos desde un archivo JSON previamente exportado. Esta es una acción destructiva y no se puede deshacer.",
+      "button": "Importar Datos",
+      "confirm": "¿Estás seguro de que quieres importar este archivo? Todos los datos existentes se sobrescribirán permanentemente.",
+      "success": "¡Datos importados con éxito! La aplicación se recargará ahora.",
+      "error": {
+        "invalidFile": "Falló la importación. El archivo seleccionado es inválido o está corrupto. Por favor, asegúrate de usar un archivo de respaldo válido."
+      }
+    }
+  },
+  "share": {
+    "button": "Compartir",
+    "title": "Mi Progreso en Tobacco Track",
+    "text": {
+      "daily": "¡Mira mi progreso diario en Tobacco Track!",
+      "weekly": "¡Mira mi progreso semanal en Tobacco Track!"
+    },
+    "card": {
+      "dailyTitle": "Resumen Diario",
+      "weeklyTitle": "Progreso Semanal",
+      "smokesToday": "Fumados Hoy",
+      "currentStreak": "Racha Actual"
+    },
+    "error": "No se pudo generar la imagen para compartir."
+  },
+  "general": {
+    "loading": "Cargando..."
+  }
+}

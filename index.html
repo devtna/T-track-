@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tobacco Track</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#10b981', // emerald-500
+              'brand-secondary': '#059669', // emerald-600
+              'brand-light': '#d1fae5', // emerald-100
+              'brand-dark': '#047857', // emerald-700
+              'base-100': '#ffffff', // white
+              'base-200': '#f1f5f9', // slate-100
+              'base-300': '#e2e8f0', // slate-200
+              'body-bg': '#f8fafc', // slate-50
+              'text-primary': '#0f172a', // slate-900
+              'text-secondary': '#475569', // slate-600
+
+              // Dark theme
+              'dark-bg': '#1e293b', // slate-800
+              'dark-bg-secondary': '#334155', // slate-700
+              'dark-body-bg': '#0f172a', // slate-900
+              'dark-text-primary': '#f1f5f9', // slate-100
+              'dark-text-secondary': '#94a3b8', // slate-400
+              'dark-border': '#334155', // slate-700
+            },
+            keyframes: {
+              'fade-in': {
+                '0%': { opacity: '0', transform: 'translateY(10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              'goal-achieved-pulse': {
+                '0%': { transform: 'scale(1)' },
+                '50%': { transform: 'scale(1.03)' },
+                '100%': { transform: 'scale(1)' },
+              },
+            },
+            animation: {
+              'fade-in': 'fade-in 0.4s ease-out forwards',
+              'goal-achieved-pulse': 'goal-achieved-pulse 0.8s ease-in-out',
+            },
+          }
+        }
+      }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.3.0",
+    "i18next": "https://aistudiocdn.com/i18next@^23.11.5",
+    "react-i18next": "https://aistudiocdn.com/react-i18next@^14.1.2",
+    "i18next-browser-languagedetector": "https://aistudiocdn.com/i18next-browser-languagedetector@^8.0.0",
+    "dexie": "https://aistudiocdn.com/dexie@^4.0.7",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^0.14.0",
+    "html-to-image": "https://aistudiocdn.com/html-to-image@^1.11.11"
+  }
+}
+</script>
+</head>
+<body class="bg-body-bg dark:bg-dark-body-bg">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
